@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>ShopHub - Single Page Application</title>
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // https://github.com/rafrex/spa-github-pages
+      // Copyright (c) 2016 Rafael Pedicini, MIT License
+      // ----------------------------------------------------------------------
+      // This script takes the current url and converts the path and query
+      // string of the url into just a query string, and then redirects
+      // the browser to the new url with only a query string and hash fragment,
+      // which is compatible with GitHub Pages's routing
+      // ----------------------------------------------------------------------
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&') 
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
+  </head>
+  <body>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/CodeAlpha_ShopHub/static/css/main.ce2543c7.css",
+    "main.js": "/CodeAlpha_ShopHub/static/js/main.149df618.js",
+    "static/js/453.825386d9.chunk.js": "/CodeAlpha_ShopHub/static/js/453.825386d9.chunk.js",
+    "index.html": "/CodeAlpha_ShopHub/index.html",
+    "main.ce2543c7.css.map": "/CodeAlpha_ShopHub/static/css/main.ce2543c7.css.map",
+    "main.149df618.js.map": "/CodeAlpha_ShopHub/static/js/main.149df618.js.map",
+    "453.825386d9.chunk.js.map": "/CodeAlpha_ShopHub/static/js/453.825386d9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce2543c7.css",
+    "static/js/main.149df618.js"
+  ]
+}
